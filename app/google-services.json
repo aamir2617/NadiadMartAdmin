@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "21462364105",
+    "firebase_url": "https://nadiadmart.firebaseio.com",
+    "project_id": "nadiadmart",
+    "storage_bucket": "nadiadmart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21462364105:android:11ae79ca5495b54d790218",
+        "android_client_info": {
+          "package_name": "com.example.nadiadmartadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21462364105-07als6hcfb5mdrqtsimh9lajhj66jqb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nadiadmartadmin",
+            "certificate_hash": "e9ef233eda2a87a1a373fc3757763dbd7f461e25"
+          }
+        },
+        {
+          "client_id": "21462364105-0tnve5g9oo919mapddi2qt9644bp8cll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOkcUy3lK1ITiQe9k-fQbmzBdL51Wbj-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21462364105-0tnve5g9oo919mapddi2qt9644bp8cll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
