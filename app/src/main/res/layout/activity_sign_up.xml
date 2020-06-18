@@ -20,7 +20,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:hint="Username"
+        android:hint="Email Id"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/edtPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,6 +46,8 @@
         android:layout_marginTop="10dp"
         android:hint="Mobile Number"
         android:textSize="14sp"
+        android:inputType="number"
+        android:maxLength="10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,6 +85,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnSignUp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSignIn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
