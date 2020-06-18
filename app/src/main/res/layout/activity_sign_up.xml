@@ -34,6 +34,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginBottom="10dp"
         app:passwordToggleEnabled="true"
+        app:hintEnabled="false"
         app:layout_constraintVertical_chainStyle="packed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -41,6 +42,8 @@
         <EditText
             android:id="@+id/edtPassword"
             android:hint="Password"
+            android:textSize="14sp"
+            android:inputType="textPassword"
             android:layout_width="250dp"
             android:layout_height="wrap_content"/>
 

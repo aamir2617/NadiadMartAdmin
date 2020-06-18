@@ -35,13 +35,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtUsername"
         android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
         app:layout_constraintVertical_chainStyle="packed"
         android:layout_width="wrap_content"
+        app:hintEnabled="false"
         android:layout_height="wrap_content">
 
         <EditText
             android:id="@+id/edtPassword"
             android:hint="Password"
+            android:inputType="textPassword"
             android:layout_width="250dp"
             android:layout_height="wrap_content"/>
     </com.google.android.material.textfield.TextInputLayout>
