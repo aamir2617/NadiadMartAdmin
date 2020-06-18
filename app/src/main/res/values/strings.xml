@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">NadiadMartAdmin</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+
+    <array name="product_categories">
+        <item>Fruit</item>
+        <item>Vegetables</item>
+        <item>Bakkery</item>
+    </array>
+
 </resources>

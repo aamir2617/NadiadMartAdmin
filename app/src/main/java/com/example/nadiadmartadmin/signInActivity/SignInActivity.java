@@ -45,7 +45,7 @@ public class SignInActivity extends AppCompatActivity {
 
         if(currentUser!=null)
         {
-            startActivity(new Intent(context,HomeScreenActivity.class));
+            startActivity(new Intent(context, HomeScreenActivity.class));
             finish();
         }
 
